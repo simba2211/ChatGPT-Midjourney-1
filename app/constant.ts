@@ -66,19 +66,19 @@ Current time: {{time}}`;
 export const DEFAULT_MODELS = [
   {
     name: "gpt-4",
-    available: false,
+    available: true,
   },
   {
     name: "gpt-4-32k",
-    available: false,
+    available: true,
   },
   {
     name: "gpt-4-1106-preview",
-    available: false,
+    available: true,
   },
   {
     name: "gpt-4-vision-preview",
-    available: false,
+    available: true,
   },
   {
     name: "gpt-3.5-turbo",
