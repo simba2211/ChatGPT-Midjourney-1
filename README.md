@@ -49,7 +49,7 @@ Discord 用户Token
 Discord 代理域名，默认为：`https://discord.com`
 ### MJ_DISCORD_WSS_PROXY
 Discord Websocket代理域名，默认为：`wss://gateway.discord.gg`
-### MJ_DISCORD_WSS_PROXY
+### MJ_DISCORD_CDN_PROXY
 Discord CDN代理域名，默认为：`https://cdn.discordapp.com`
 ### CODE
 （可选）设置页面中的访问密码
@@ -65,7 +65,7 @@ docker run -d -p 3000:3000 \
    -e MJ_SERVER_ID="" \
    -e MJ_CHANNEL_ID="" \
    -e MJ_USER_TOKEN="" \
-   licoy/chatgpt-midjourney:v3.2.2
+   licoy/chatgpt-midjourney:v3.2.3
 ```
 ### Vercel
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLicoy%2FChatGPT-Midjourney&env=OPENAI_API_KEY&env=MJ_SERVER_ID&env=MJ_CHANNEL_ID&env=MJ_USER_TOKEN&env=CODE&project-name=chatgpt-midjourney&repository-name=ChatGPT-Midjourney)
